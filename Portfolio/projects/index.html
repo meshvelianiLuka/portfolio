@@ -1,0 +1,1097 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO & Metadata -->
+    <title>ლუკა მეშველიანი | Full-Stack დეველოპერი & UI/UX დიზაინერი - პორტფოლიო</title>
+    <meta name="description" content="ლუკა მეშველიანის პორტფოლიო - Full-Stack ვებ დეველოპერი და UI/UX დიზაინერი. თანამედროვე, სწრაფი და მობილურზე სრულად მორგებული ვებ-გვერდები.">
+    <meta name="keywords" content="ლუკა მეშველიანი, დეველოპერი, პორტფოლიო, ვებ დეველოპმენტი, ქართული პორტფოლიო, HTML CSS, რესფონსიული დიზაინი">
+    <meta name="author" content="ლუკა მეშველიანი">
+
+    <!-- Open Graph for Social Media -->
+    <meta property="og:title" content="ლუკა მეშველიანი | Full-Stack დეველოპერის პორტფოლიო">
+    <meta property="og:description" content="გაეცანით ჩემს ნამუშევრებს, ტექნოლოგიურ უნარებსა და გამოცდილებას.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/avatar.jpg">
+
+    <!-- Google Fonts: Noto Sans Georgian, Fira GO & Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+GO:wght@300;400;500;600;700;800;900&family=Noto+Sans+Georgian:wght@300;400;500;600;700;800;900&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+
+    <!-- Background Ambient Glow Lights -->
+    <div class="ambient-glow orb-primary" aria-hidden="true"></div>
+    <div class="ambient-glow orb-secondary" aria-hidden="true"></div>
+    <div class="ambient-glow orb-tertiary" aria-hidden="true"></div>
+
+    <!-- Hidden CSS-Only Mobile Navigation Toggle -->
+    <input type="checkbox" id="nav-toggle" class="nav-toggle-input" aria-label="მენიუს გახსნა">
+
+    <!-- Sticky Navigation Header -->
+    <header class="header">
+        <div class="container header-container">
+            <!-- Brand Logo -->
+            <a href="#top" class="brand-logo" aria-label="მთავარზე დაბრუნება">
+                <span class="logo-symbol">&lt;</span>
+                <span class="logo-text">ლუკა</span>
+                <span class="logo-accent">.</span>
+                <span class="logo-sub">dev</span>
+                <span class="logo-symbol">/&gt;</span>
+            </a>
+
+            <!-- Mobile Hamburger Button (Pure CSS Trigger) -->
+            <label for="nav-toggle" class="hamburger-btn" aria-label="მენიუს გადართვა">
+                <span class="hamburger-line line-1"></span>
+                <span class="hamburger-line line-2"></span>
+                <span class="hamburger-line line-3"></span>
+            </label>
+
+            <!-- Navigation Links -->
+            <nav class="navigation-menu" aria-label="მთავარი ნავიგაცია">
+                <ul class="nav-list">
+                    <li><a href="#top" class="nav-link">მთავარი</a></li>
+                    <li><a href="#about" class="nav-link">ჩემ შესახებ</a></li>
+                    <li><a href="#skills" class="nav-link">უნარები</a></li>
+                    <li><a href="#projects" class="nav-link">პროექტები</a></li>
+                    <li><a href="#services" class="nav-link">სერვისები</a></li>
+                    <li><a href="#faq" class="nav-link">კითხვები</a></li>
+                    <li>
+                        <a href="#contact" class="btn btn-primary btn-sm nav-cta">
+                            <span>დამიკავშირდით</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Overlay for Mobile Menu -->
+    <label for="nav-toggle" class="nav-overlay" aria-hidden="true"></label>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <!-- Status Badge -->
+                    <div class="status-badge">
+                        <span class="status-pulse"></span>
+                        <span class="status-text">ხელმისაწვდომია ახალი პროექტებისთვის</span>
+                    </div>
+
+                    <!-- Intro Heading -->
+                    <h1 class="hero-title">
+                        გამარჯობა, მე ვარ <br>
+                        <span class="gradient-text">ლუკა მეშველიანი</span>
+                    </h1>
+
+                    <h2 class="hero-subtitle">
+                        Full-Stack დეველოპერი & UI/UX დიზაინერი
+                    </h2>
+
+                    <p class="hero-description">
+                        ვქმნი მაღალტექნოლოგიურ, სწრაფ, დახვეწილ და ნებისმიერ ტელეფონსა თუ ეკრანზე სრულყოფილად მორგებულ ციფრულ პროდუქტებს. ჩემი მიზანია იდეების რეალობად ქცევა სუფთა კოდითა და თანამედროვე დიზაინით.
+                    </p>
+
+                    <!-- CTA Actions -->
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fa-solid fa-layer-group"></i>
+                            <span>პროექტების ნახვა</span>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <i class="fa-solid fa-paper-plane"></i>
+                            <span>დამიკავშირდით</span>
+                        </a>
+                    </div>
+
+                    <!-- Highlights List on Mobile -->
+                    <div class="hero-highlights">
+                        <div class="highlight-item">
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                            <span>100% მობილურზე მორგებული</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fa-solid fa-bolt"></i>
+                            <span>მაღალი სისწრაფე & SEO</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fa-solid fa-code"></i>
+                            <span>სუფთა HTML5 & CSS3</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hero Visual Card with Avatar -->
+                <div class="hero-visual">
+                    <div class="avatar-card-wrapper">
+                        <div class="avatar-glow-ring"></div>
+                        <div class="avatar-card">
+                            <div class="avatar-image-box">
+                                <img src="images/avatar.jpg" alt="ლუკა მეშველიანი - Full-Stack დეველოპერი" class="avatar-img" width="400" height="400" loading="eager">
+                            </div>
+                            <!-- Floating Tech Chips -->
+                            <div class="floating-badge badge-top-right">
+                                <i class="fa-brands fa-html5"></i>
+                                <span>HTML5 / CSS3</span>
+                            </div>
+                            <div class="floating-badge badge-bottom-left">
+                                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                                <span>UI / UX დიზაინი</span>
+                            </div>
+                            <div class="floating-badge badge-bottom-right">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <span>100% Responsive</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Bar Section -->
+        <section class="stats-section">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="fa-solid fa-calendar-check"></i></div>
+                        <div class="stat-content">
+                            <span class="stat-number">4+</span>
+                            <span class="stat-label">წლიანი გამოცდილება</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="fa-solid fa-rocket"></i></div>
+                        <div class="stat-content">
+                            <span class="stat-number">35+</span>
+                            <span class="stat-label">შესრულებული პროექტი</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="fa-solid fa-heart"></i></div>
+                        <div class="stat-content">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">კმაყოფილი კლიენტი</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="fa-solid fa-code-commit"></i></div>
+                        <div class="stat-content">
+                            <span class="stat-number">150k+</span>
+                            <span class="stat-label">დაწერილი კოდის ხაზი</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section class="section about-section" id="about">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">გაიცანით ავტორი</span>
+                    <h2 class="section-title">ჩემ შესახებ</h2>
+                    <p class="section-subtitle">
+                        პროფესიონალიზმი, დეტალებისადმი ყურადღება და სიყვარული თანამედროვე ვებ ტექნოლოგიებისადმი.
+                    </p>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-card-info">
+                        <h3 class="about-greeting">
+                            გამარჯობა! მე ვარ <span class="text-accent">ლუკა მეშველიანი</span>
+                        </h3>
+                        <p class="about-text">
+                            მე ვარ Full-Stack დეველოპერი და UI/UX დიზაინერი საქართველოდან. ჩემი ძირითადი საქმიანობაა მომხმარებლისთვის მოსახერხებელი, ვიზუალურად შთამბეჭდავი და ტექნიკურად უნაკლო ვებ-აპლიკაციების აგება.
+                        </p>
+                        <p class="about-text">
+                            განსაკუთრებულ ყურადღებას ვუთმობ <strong>მობილურ რეზოლუციებს (Mobile-First მიდგომა)</strong>, საიტის ჩატვირთვის სისწრაფეს, სუფთა არქიტექტურასა და SEO ოპტიმიზაციას. თითოეული პროექტი იქმნება ინდივიდუალური ხედვითა და უმაღლესი სტანდარტებით.
+                        </p>
+
+                        <!-- Personal Info Grid -->
+                        <div class="info-list-grid">
+                            <div class="info-item">
+                                <span class="info-label"><i class="fa-solid fa-user"></i> სახელი:</span>
+                                <span class="info-value">ლუკა მეშველიანი</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label"><i class="fa-solid fa-location-dot"></i> მდებარეობა:</span>
+                                <span class="info-value">თბილისი, საქართველო</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label"><i class="fa-solid fa-envelope"></i> ელ-ფოსტა:</span>
+                                <a href="mailto:luka.meshveliani@example.com" class="info-value link">luka.meshveliani@example.com</a>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label"><i class="fa-solid fa-phone"></i> ტელეფონი:</span>
+                                <a href="tel:+995555000000" class="info-value link">+995 (555) 00-00-00</a>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label"><i class="fa-solid fa-briefcase"></i> სტატუსი:</span>
+                                <span class="info-value highlight">ხელმისაწვდომი (Freelance)</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label"><i class="fa-solid fa-language"></i> ენები:</span>
+                                <span class="info-value">ქართული (Native), ინგლისური</span>
+                            </div>
+                        </div>
+
+                        <div class="about-actions">
+                            <a href="#contact" class="btn btn-primary">
+                                <i class="fa-solid fa-comment-dots"></i>
+                                <span>დავიწყოთ თანამშრომლობა</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Code / Terminal Aesthetic Card -->
+                    <div class="code-preview-card">
+                        <div class="code-header">
+                            <div class="code-dots">
+                                <span class="dot dot-red"></span>
+                                <span class="dot dot-yellow"></span>
+                                <span class="dot dot-green"></span>
+                            </div>
+                            <span class="code-title">luka_meshveliani.json</span>
+                        </div>
+                        <div class="code-body">
+<pre><code>{
+  <span class="code-key">"name"</span>: <span class="code-string">"ლუკა მეშველიანი"</span>,
+  <span class="code-key">"role"</span>: <span class="code-string">"Full-Stack დეველოპერი"</span>,
+  <span class="code-key">"location"</span>: <span class="code-string">"თბილისი, საქართველო"</span>,
+  <span class="code-key">"specialization"</span>: [
+    <span class="code-string">"სუფთა HTML5 &amp; CSS3"</span>,
+    <span class="code-string">"მობილური რესფონსიულობა"</span>,
+    <span class="code-string">"UI/UX დიზაინის სისტემები"</span>,
+    <span class="code-string">"Full-Stack არქიტექტურა"</span>
+  ],
+  <span class="code-key">"status"</span>: <span class="code-string">"ღიაა შემოთავაზებებისთვის"</span>,
+  <span class="code-key">"passion"</span>: <span class="code-string">"ინოვაციური ვებ გამოცდილება"</span>
+}</code></pre>
+                        </div>
+                        <div class="code-footer">
+                            <div class="code-tag"><i class="fa-solid fa-check"></i> 100% Pure HTML/CSS</div>
+                            <div class="code-tag"><i class="fa-solid fa-shield-halved"></i> Mobile First</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section skills-section" id="skills">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">უნარები & ტექნოლოგიები</span>
+                    <h2 class="section-title">ჩემი ტექნოლოგიური არსენალი</h2>
+                    <p class="section-subtitle">
+                        ინსტრუმენტები და სტანდარტები, რომლებსაც ყოველდღიურად ვიყენებ ხარისხიანი პროდუქტის შესაქმნელად.
+                    </p>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Frontend Card -->
+                    <div class="skill-category-card">
+                        <div class="category-icon icon-cyan">
+                            <i class="fa-solid fa-laptop-code"></i>
+                        </div>
+                        <h3 class="category-title">Frontend დეველოპმენტი</h3>
+                        <p class="category-desc">თანამედროვე, სწრაფი და ინტერაქტიული ინტერფეისების აგება.</p>
+
+                        <div class="skill-bars-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">HTML5 &amp; სემანტიკა</span>
+                                    <span class="skill-percent">98%</span>
+                                </div>
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-bar" style="width: 98%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">CSS3 &amp; Flexbox / Grid</span>
+                                    <span class="skill-percent">95%</span>
+                                </div>
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-bar" style="width: 95%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">მობილური რესფონსიულობა</span>
+                                    <span class="skill-percent">100%</span>
+                                </div>
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-bar" style="width: 100%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">CSS ანიმაციები &amp; ეფექტები</span>
+                                    <span class="skill-percent">92%</span>
+                                </div>
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-bar" style="width: 92%;"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tech-pills">
+                            <span class="pill">HTML5</span>
+                            <span class="pill">CSS3</span>
+                            <span class="pill">Flexbox</span>
+                            <span class="pill">CSS Grid</span>
+                            <span class="pill">Sass/SCSS</span>
+                        </div>
+                    </div>
+
+                    <!-- Backend Card -->
+                    <div class="skill-category-card">
+                        <div class="category-icon icon-purple">
+                            <i class="fa-solid fa-server"></i>
+                        </div>
+                        <h3 class="category-title">Backend &amp; სერვერები</h3>
+                        <p class="category-desc">საიმედო მონაცემთა ბაზები, API-ები და სერვერული ლოგიკა.</p>
+
+                        <div class="skill-bars-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Node.js &amp; სერვერები</span>
+                                    <span class="skill-percent">90%</span>
+                                </div>
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-bar" style="width: 90%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">RESTful API არქიტექტურა</span>
+                                    <span class="skill-percent">94%</span>
+                                </div>
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-bar" style="width: 94%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">მონაცემთა ბაზები (SQL/NoSQL)</span>
+                                    <span class="skill-percent">88%</span>
+                                </div>
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-bar" style="width: 88%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">უსაფრთხოება &amp; ავთენტიფიკაცია</span>
+                                    <span class="skill-percent">91%</span>
+                                </div>
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-bar" style="width: 91%;"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tech-pills">
+                            <span class="pill">Node.js</span>
+                            <span class="pill">Express</span>
+                            <span class="pill">PostgreSQL</span>
+                            <span class="pill">MongoDB</span>
+                            <span class="pill">REST API</span>
+                        </div>
+                    </div>
+
+                    <!-- UI/UX & Tools Card -->
+                    <div class="skill-category-card">
+                        <div class="category-icon icon-pink">
+                            <i class="fa-solid fa-pen-ruler"></i>
+                        </div>
+                        <h3 class="category-title">UI/UX &amp; ოპტიმიზაცია</h3>
+                        <p class="category-desc">დიზაინ სისტემები, პროტოტიპირება და მაქსიმალური წარმადობა.</p>
+
+                        <div class="skill-bars-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Figma &amp; UI დიზაინი</span>
+                                    <span class="skill-percent">93%</span>
+                                </div>
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-bar" style="width: 93%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">მობილური მომხმარებლის გამოცდილება</span>
+                                    <span class="skill-percent">96%</span>
+                                </div>
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-bar" style="width: 96%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">SEO &amp; სისწრაფის ოპტიმიზაცია</span>
+                                    <span class="skill-percent">95%</span>
+                                </div>
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-bar" style="width: 95%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Git &amp; ვერსიების მართვა</span>
+                                    <span class="skill-percent">92%</span>
+                                </div>
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-bar" style="width: 92%;"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tech-pills">
+                            <span class="pill">Figma</span>
+                            <span class="pill">Git / GitHub</span>
+                            <span class="pill">SEO</span>
+                            <span class="pill">Web Performance</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section (Pure CSS Filter) -->
+        <section class="section projects-section" id="projects">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">ნამუშევრების კატალოგი</span>
+                    <h2 class="section-title">რჩეული პროექტები</h2>
+                    <p class="section-subtitle">
+                        რეალური პროექტები, შექმნილი მაღალი სტანდარტებით, სუფთა კოდითა და მობილურზე სრული თავსებადობით.
+                    </p>
+                </div>
+
+                <!-- Pure CSS Filter Radio Buttons -->
+                <div class="filter-controls-wrapper">
+                    <input type="radio" name="project-filter" id="filter-all" class="filter-radio" checked>
+                    <input type="radio" name="project-filter" id="filter-web" class="filter-radio">
+                    <input type="radio" name="project-filter" id="filter-ecommerce" class="filter-radio">
+                    <input type="radio" name="project-filter" id="filter-fintech" class="filter-radio">
+
+                    <div class="filter-labels-container">
+                        <label for="filter-all" class="filter-label" id="label-all">
+                            <i class="fa-solid fa-border-all"></i> ყველა
+                        </label>
+                        <label for="filter-web" class="filter-label" id="label-web">
+                            <i class="fa-solid fa-code"></i> AI &amp; Web
+                        </label>
+                        <label for="filter-ecommerce" class="filter-label" id="label-ecommerce">
+                            <i class="fa-solid fa-bag-shopping"></i> ელ-კომერცია
+                        </label>
+                        <label for="filter-fintech" class="filter-label" id="label-fintech">
+                            <i class="fa-solid fa-chart-line"></i> FinTech
+                        </label>
+                    </div>
+
+                    <!-- Projects Grid -->
+                    <div class="projects-grid">
+                        <!-- Project 1: E-Commerce -->
+                        <article class="project-card type-ecommerce" id="project-card-1">
+                            <div class="project-image-box">
+                                <img src="images/project-ecommerce.jpg" alt="თანამედროვე ელ-კომერციის პლატფორმა" class="project-img" loading="lazy">
+                                <span class="project-badge badge-store">ელ-კომერცია</span>
+                            </div>
+                            <div class="project-body">
+                                <div class="project-meta">
+                                    <span class="project-category"><i class="fa-solid fa-tag"></i> ონლაინ მაღაზია</span>
+                                    <span class="project-year">2026</span>
+                                </div>
+                                <h3 class="project-title">თანამედროვე E-Commerce პლატფორმა</h3>
+                                <p class="project-desc">
+                                    სრული ციფრული მაღაზია პროდუქტების კატალოგით, მობილურზე ადაპტირებული კალათით, ფილტრებითა და უსაფრთხო გადახდის სისტემით.
+                                </p>
+                                <div class="project-tech-tags">
+                                    <span class="tag">HTML5</span>
+                                    <span class="tag">CSS3</span>
+                                    <span class="tag">Responsive</span>
+                                    <span class="tag">UI/UX</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#modal-ecommerce" class="btn btn-outline btn-sm">
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        <span>დეტალები</span>
+                                    </a>
+                                    <a href="#contact" class="btn btn-primary btn-sm">
+                                        <i class="fa-solid fa-handshake"></i>
+                                        <span>შეკვეთა</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Project 2: AI Chat -->
+                        <article class="project-card type-web" id="project-card-2">
+                            <div class="project-image-box">
+                                <img src="images/project-aichat.jpg" alt="ხელოვნური ინტელექტის ჩატ-ინტერფეისი" class="project-img" loading="lazy">
+                                <span class="project-badge badge-ai">AI &amp; Web</span>
+                            </div>
+                            <div class="project-body">
+                                <div class="project-meta">
+                                    <span class="project-category"><i class="fa-solid fa-robot"></i> ხელოვნური ინტელექტი</span>
+                                    <span class="project-year">2026</span>
+                                </div>
+                                <h3 class="project-title">ინოვაციური AI ასისტენტის ინტერფეისი</h3>
+                                <p class="project-desc">
+                                    თანამედროვე ხელოვნური ინტელექტის ინტერფეისი მუქი დიზაინით, ხმოვანი შეყვანის მხარდაჭერითა და მობილურ ეკრანებზე იდეალური ადაპტაციით.
+                                </p>
+                                <div class="project-tech-tags">
+                                    <span class="tag">HTML5</span>
+                                    <span class="tag">Glassmorphism</span>
+                                    <span class="tag">Mobile UX</span>
+                                    <span class="tag">Modern CSS</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#modal-aichat" class="btn btn-outline btn-sm">
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        <span>დეტალები</span>
+                                    </a>
+                                    <a href="#contact" class="btn btn-primary btn-sm">
+                                        <i class="fa-solid fa-handshake"></i>
+                                        <span>შეკვეთა</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Project 3: FinTech Dashboard -->
+                        <article class="project-card type-fintech" id="project-card-3">
+                            <div class="project-image-box">
+                                <img src="images/project-fintech.jpg" alt="ფინანსური ანალიტიკის პანელი" class="project-img" loading="lazy">
+                                <span class="project-badge badge-fin">FinTech</span>
+                            </div>
+                            <div class="project-body">
+                                <div class="project-meta">
+                                    <span class="project-category"><i class="fa-solid fa-chart-pie"></i> ანალიტიკა &amp; ფინანსები</span>
+                                    <span class="project-year">2026</span>
+                                </div>
+                                <h3 class="project-title">FinTech ფინანსური მართვის პანელი</h3>
+                                <p class="project-desc">
+                                    საფინანსო ანალიტიკის მართვის პანელი რეალურ დროში განახლებადი მონაცემებით, დიაგრამებითა და ინტუიციური მობილური სანავიგაციო ზოლით.
+                                </p>
+                                <div class="project-tech-tags">
+                                    <span class="tag">HTML5</span>
+                                    <span class="tag">CSS Grid</span>
+                                    <span class="tag">Data Visual</span>
+                                    <span class="tag">Responsive</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#modal-fintech" class="btn btn-outline btn-sm">
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        <span>დეტალები</span>
+                                    </a>
+                                    <a href="#contact" class="btn btn-primary btn-sm">
+                                        <i class="fa-solid fa-handshake"></i>
+                                        <span>შეკვეთა</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Project 4: Luka's Portfolio System -->
+                        <article class="project-card type-web" id="project-card-4">
+                            <div class="project-image-box">
+                                <div class="project-code-art">
+                                    <div class="code-art-circle">
+                                        <i class="fa-solid fa-code"></i>
+                                    </div>
+                                    <div class="code-art-text">ლუკა მეშველიანი</div>
+                                    <div class="code-art-sub">პორტფოლიო &amp; დიზაინ სისტემა</div>
+                                </div>
+                                <span class="project-badge badge-design">დიზაინ სისტემა</span>
+                            </div>
+                            <div class="project-body">
+                                <div class="project-meta">
+                                    <span class="project-category"><i class="fa-solid fa-palette"></i> პორტფოლიო</span>
+                                    <span class="project-year">2026</span>
+                                </div>
+                                <h3 class="project-title">სუფთა HTML &amp; CSS პორტფოლიო სისტემა</h3>
+                                <p class="project-desc">
+                                    მაღალი წარმადობის, 100% მობილურზე მორგებული პორტფოლიოს ვებ გვერდი ქართული შრიფტით, ფილტრებითა და გლასმორფიზმის სტილით.
+                                </p>
+                                <div class="project-tech-tags">
+                                    <span class="tag">სუფთა HTML5</span>
+                                    <span class="tag">სუფთა CSS3</span>
+                                    <span class="tag">No JS Needed</span>
+                                    <span class="tag">Fira GO</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#modal-portfolio" class="btn btn-outline btn-sm">
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        <span>დეტალები</span>
+                                    </a>
+                                    <a href="#contact" class="btn btn-primary btn-sm">
+                                        <i class="fa-solid fa-handshake"></i>
+                                        <span>შეკვეთა</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pure CSS Modal Previews for Projects (:target based) -->
+        <div id="modal-ecommerce" class="pure-css-modal" role="dialog" aria-modal="true">
+            <div class="modal-content">
+                <a href="#projects" class="modal-close" aria-label="დახურვა">&times;</a>
+                <div class="modal-header">
+                    <span class="project-badge badge-store">E-Commerce</span>
+                    <h3 class="modal-title">E-Commerce ონლაინ მაღაზიის პლატფორმა</h3>
+                </div>
+                <div class="modal-body">
+                    <img src="images/project-ecommerce.jpg" alt="E-Commerce პროექტის დეტალები" class="modal-img">
+                    <p class="modal-desc">
+                        ეს პროექტი მოიცავს სრულ ციფრულ კომერციულ გადაწყვეტას. მომხმარებელს შეუძლია პროდუქტების დათვალიერება, ფილტრაცია კატეგორიების მიხედვით, კალათაში დამატება და შეკვეთის გაფორმება.
+                    </p>
+                    <ul class="modal-feature-list">
+                        <li><i class="fa-solid fa-check text-accent"></i> სრულად ადაპტირებადი მობილურ ეკრანებზე</li>
+                        <li><i class="fa-solid fa-check text-accent"></i> სწრაფი ძიება და კატეგორიების ფილტრი</li>
+                        <li><i class="fa-solid fa-check text-accent"></i> გადახდის სისტემების ინტეგრაცია</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <a href="#projects" class="btn btn-secondary">დახურვა</a>
+                    <a href="#contact" class="btn btn-primary">დაინტერესდით? მოგვწერეთ</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="modal-aichat" class="pure-css-modal" role="dialog" aria-modal="true">
+            <div class="modal-content">
+                <a href="#projects" class="modal-close" aria-label="დახურვა">&times;</a>
+                <div class="modal-header">
+                    <span class="project-badge badge-ai">AI Chat</span>
+                    <h3 class="modal-title">ხელოვნური ინტელექტის ინტერფეისი</h3>
+                </div>
+                <div class="modal-body">
+                    <img src="images/project-aichat.jpg" alt="AI Chat პროექტის დეტალები" class="modal-img">
+                    <p class="modal-desc">
+                        თანამედროვე AI ასისტენტის ინტერფეისი, რომელიც მომხმარებელს სთავაზობს რეალურ დროში ჩატის გამოცდილებას, კოდის სინტაქსის გამოკვეთას და ხმოვან ბრძანებებს.
+                    </p>
+                    <ul class="modal-feature-list">
+                        <li><i class="fa-solid fa-check text-accent"></i> მუქი თემა და გლასმორფიზმის დიზაინი</li>
+                        <li><i class="fa-solid fa-check text-accent"></i> მარტივი და ინტუიციური მობილური ინტერფეისი</li>
+                        <li><i class="fa-solid fa-check text-accent"></i> მაღალი წარმადობა და სწრაფი რენდერი</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <a href="#projects" class="btn btn-secondary">დახურვა</a>
+                    <a href="#contact" class="btn btn-primary">პროექტის განხილვა</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="modal-fintech" class="pure-css-modal" role="dialog" aria-modal="true">
+            <div class="modal-content">
+                <a href="#projects" class="modal-close" aria-label="დახურვა">&times;</a>
+                <div class="modal-header">
+                    <span class="project-badge badge-fin">FinTech</span>
+                    <h3 class="modal-title">FinTech ფინანსური მართვის პანელი</h3>
+                </div>
+                <div class="modal-body">
+                    <img src="images/project-fintech.jpg" alt="FinTech პროექტის დეტალები" class="modal-img">
+                    <p class="modal-desc">
+                        ფინანსური ანალიტიკის დაფა, შექმნილი ბიზნესებისთვის შემოსავლებისა და ხარჯების რეალურ დროში სამართავად.
+                    </p>
+                    <ul class="modal-feature-list">
+                        <li><i class="fa-solid fa-check text-accent"></i> დეტალური ანალიტიკური გრაფიკები</li>
+                        <li><i class="fa-solid fa-check text-accent"></i> ტრანზაქციების სწრაფი ექსპორტი</li>
+                        <li><i class="fa-solid fa-check text-accent"></i> ადაპტირებადი ცხრილები და ვიჯეტები</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <a href="#projects" class="btn btn-secondary">დახურვა</a>
+                    <a href="#contact" class="btn btn-primary">დაკავშირება</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="modal-portfolio" class="pure-css-modal" role="dialog" aria-modal="true">
+            <div class="modal-content">
+                <a href="#projects" class="modal-close" aria-label="დახურვა">&times;</a>
+                <div class="modal-header">
+                    <span class="project-badge badge-design">პორტფოლიო</span>
+                    <h3 class="modal-title">ლუკა მეშველიანის პორტფოლიო</h3>
+                </div>
+                <div class="modal-body">
+                    <p class="modal-desc">
+                        ეს ვებ გვერდი აგებულია <strong>მხოლოდ HTML5 და CSS3-ის გამოყენებით</strong>, ყოველგვარი ზედმეტი ბიბლიოთეკების ან JavaScript-ის გარეშე. მოიცავს სუფთა სემანტიკას, სწრაფ ჩატვირთვას და მობილურზე სრულყოფილ რესფონსიულობას.
+                    </p>
+                    <ul class="modal-feature-list">
+                        <li><i class="fa-solid fa-check text-accent"></i> სუფთა ქართული შრიფტი (Noto Sans Georgian &amp; Fira GO)</li>
+                        <li><i class="fa-solid fa-check text-accent"></i> Pure CSS მობილური ნავიგაციის ჰამბურგერი</li>
+                        <li><i class="fa-solid fa-check text-accent"></i> Pure CSS პროექტების ფილტრაცია &amp; მოდალები</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <a href="#projects" class="btn btn-secondary">დახურვა</a>
+                    <a href="#contact" class="btn btn-primary">დამიკავშირდით</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Services Section -->
+        <section class="section services-section" id="services">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">რას გთავაზობთ</span>
+                    <h2 class="section-title">ჩემი სერვისები</h2>
+                    <p class="section-subtitle">
+                        დაეხმარეთ თქვენს ბიზნესს თანამედროვე, საიმედო და სწრაფი ციფრული გადაწყვეტებით.
+                    </p>
+                </div>
+
+                <div class="services-grid">
+                    <!-- Service 1 -->
+                    <div class="service-card">
+                        <div class="service-icon icon-code">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <h3 class="service-title">ვებ დეველოპმენტი</h3>
+                        <p class="service-desc">
+                            ნებისმიერი სირთულის ვებ-საიტებისა და ვებ-აპლიკაციების შექმნა სუფთა, სემანტიკური და მასშტაბირებადი კოდით.
+                        </p>
+                        <ul class="service-bullets">
+                            <li><i class="fa-solid fa-circle-check"></i> სუფთა და ოპტიმიზებული კოდი</li>
+                            <li><i class="fa-solid fa-circle-check"></i> სწრაფი ჩატვირთვა</li>
+                            <li><i class="fa-solid fa-circle-check"></i> უსაფრთხოების სტანდარტები</li>
+                        </ul>
+                    </div>
+
+                    <!-- Service 2 -->
+                    <div class="service-card highlight-card">
+                        <div class="service-icon icon-mobile">
+                            <i class="fa-solid fa-mobile-screen"></i>
+                        </div>
+                        <div class="service-popular-badge">ყველაზე მოთხოვნადი</div>
+                        <h3 class="service-title">მობილური რესფონსიულობა</h3>
+                        <p class="service-desc">
+                            თქვენი საიტი გამოიყურება იდეალურად ნებისმიერ ტელეფონზე, პლანშეტსა და კომპიუტერზე Mobile-First მიდგომით.
+                        </p>
+                        <ul class="service-bullets">
+                            <li><i class="fa-solid fa-circle-check"></i> ტელეფონის ყველა რეზოლუცია</li>
+                            <li><i class="fa-solid fa-circle-check"></i> სენსორულ ეკრანზე მორგებული</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Fluid Typography &amp; Layout</li>
+                        </ul>
+                    </div>
+
+                    <!-- Service 3 -->
+                    <div class="service-card">
+                        <div class="service-icon icon-design">
+                            <i class="fa-solid fa-palette"></i>
+                        </div>
+                        <h3 class="service-title">UI / UX დიზაინი</h3>
+                        <p class="service-desc">
+                            თანამედროვე, მიმზიდველი და მომხმარებელზე ორიენტირებული ინტერფეისების შექმნა, რაც ზრდის კონვერსიას.
+                        </p>
+                        <ul class="service-bullets">
+                            <li><i class="fa-solid fa-circle-check"></i> Figma პროტოტიპები</li>
+                            <li><i class="fa-solid fa-circle-check"></i> დიზაინ სისტემები</li>
+                            <li><i class="fa-solid fa-circle-check"></i> გლასმორფიზმი და მიკრო-ანიმაციები</li>
+                        </ul>
+                    </div>
+
+                    <!-- Service 4 -->
+                    <div class="service-card">
+                        <div class="service-icon icon-speed">
+                            <i class="fa-solid fa-gauge-high"></i>
+                        </div>
+                        <h3 class="service-title">სისწრაფე &amp; SEO</h3>
+                        <p class="service-desc">
+                            საიტის სისწრაფის ოპტიმიზაცია და საძიებო სისტემებისთვის (Google) საუკეთესო პოზიციონირების უზრუნველყოფა.
+                        </p>
+                        <ul class="service-bullets">
+                            <li><i class="fa-solid fa-circle-check"></i> Google Lighthouse 95+ ქულა</li>
+                            <li><i class="fa-solid fa-circle-check"></i> მეტა თეგები და OpenGraph</li>
+                            <li><i class="fa-solid fa-circle-check"></i> გამოსახულებების ოპტიმიზაცია</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive FAQ Section (Pure HTML details & summary) -->
+        <section class="section faq-section" id="faq">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">კითხვა-პასუხი</span>
+                    <h2 class="section-title">ხშირად დასმული კითხვები</h2>
+                    <p class="section-subtitle">
+                        ყველაფერი, რაც გაინტერესებთ ჩემს სამუშაო პროცესსა და თანამშრომლობაზე.
+                    </p>
+                </div>
+
+                <div class="faq-container">
+                    <details class="faq-item" open>
+                        <summary class="faq-question">
+                            <span>რა დრო სჭირდება ვებ-გვერდის დამზადებას?</span>
+                            <i class="fa-solid fa-chevron-down faq-arrow"></i>
+                        </summary>
+                        <div class="faq-answer">
+                            <p>
+                                დრო დამოკიდებულია პროექტის სირთულესა და მასშტაბზე. სტანდარტული ლენდინგ გვერდი ან პორტფოლიო მზადდება 3-7 სამუშაო დღეში, ხოლო კომპლექსური ვებ-აპლიკაცია ან ონლაინ მაღაზია — 2-4 კვირაში.
+                            </p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary class="faq-question">
+                            <span>იქნება თუ არა საიტი მორგებული მობილურ ტელეფონებზე?</span>
+                            <i class="fa-solid fa-chevron-down faq-arrow"></i>
+                        </summary>
+                        <div class="faq-answer">
+                            <p>
+                                რა თქმა უნდა! ყველა ჩემი პროექტი იქმნება Mobile-First მიდგომით. საიტი სრულყოფილად გამოიყურება iPhone, Samsung და ნებისმიერი სხვა მობილური მოწყობილობის ეკრანზე.
+                            </p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary class="faq-question">
+                            <span>როგორ ხდება პროექტის დაწყება და გადახდა?</span>
+                            <i class="fa-solid fa-chevron-down faq-arrow"></i>
+                        </summary>
+                        <div class="faq-answer">
+                            <p>
+                                პირველ ეტაპზე განვიხილავთ თქვენს მოთხოვნებსა და მიზნებს. შეთანხმების შემდეგ იწყება დიზაინისა და დეველოპმენტის პროცესი. გადახდა იყოფა ეტაპებად (წინასწარი ავანსი და დასრულებისას დარჩენილი თანხა).
+                            </p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary class="faq-question">
+                            <span>უზრუნველყოფთ თუ არა შემდგომ მხარდაჭერას?</span>
+                            <i class="fa-solid fa-chevron-down faq-arrow"></i>
+                        </summary>
+                        <div class="faq-answer">
+                            <p>
+                                დიახ! პროექტის ჩაბარების შემდეგ გთავაზობთ გარანტირებულ ტექნიკურ მხარდაჭერას, კონსულტაციასა და საჭიროების შემთხვევაში განახლებების დამატებას.
+                            </p>
+                        </div>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact-section" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">დამიკავშირდით</span>
+                    <h2 class="section-title">დავიწყოთ თქვენი პროექტი</h2>
+                    <p class="section-subtitle">
+                        გაქვთ იდეა ან გსურთ არსებული პროექტის გაუმჯობესება? მომწერეთ და ერთად შევქმნათ გამორჩეული შედეგი!
+                    </p>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Contact Cards Details -->
+                    <div class="contact-cards-column">
+                        <div class="contact-info-card">
+                            <div class="contact-icon icon-email">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-label">ელექტრონული ფოსტა</span>
+                                <a href="mailto:luka.meshveliani@example.com" class="contact-value">luka.meshveliani@example.com</a>
+                                <span class="contact-sub">პასუხი 2-4 საათში</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-card">
+                            <div class="contact-icon icon-phone">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-label">ტელეფონი / WhatsApp</span>
+                                <a href="tel:+995555000000" class="contact-value">+995 (555) 00-00-00</a>
+                                <span class="contact-sub">ორშ - პარ: 10:00 - 20:00</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-card">
+                            <div class="contact-icon icon-location">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-label">ლოკაცია</span>
+                                <span class="contact-value">თბილისი, საქართველო</span>
+                                <span class="contact-sub">ხელმისაწვდომია დისტანციურად გლობალურად</span>
+                            </div>
+                        </div>
+
+                        <!-- Social Media Links -->
+                        <div class="social-links-box">
+                            <span class="social-title">სოციალური ქსელები:</span>
+                            <div class="social-icons">
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="GitHub">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LinkedIn">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                                <a href="https://t.me" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Telegram">
+                                    <i class="fa-brands fa-telegram"></i>
+                                </a>
+                                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Instagram">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form (Pure HTML Form with validation styling) -->
+                    <div class="contact-form-card">
+                        <h3 class="form-title">
+                            <i class="fa-solid fa-paper-plane text-accent"></i>
+                            გამომიგზავნეთ შეტყობინება
+                        </h3>
+                        <p class="form-desc">შეავსეთ მარტივი ფორმა და მე დაგიკავშირდებით უმოკლეს ვადაში.</p>
+
+                        <form class="contact-form" action="#contact-success" method="get">
+                            <div class="form-group">
+                                <label for="userName" class="form-label">თქვენი სახელი *</label>
+                                <div class="input-wrapper">
+                                    <i class="fa-solid fa-user input-icon"></i>
+                                    <input type="text" id="userName" name="name" class="form-input" placeholder="მაგ: გიორგი ბერიძე" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="userEmail" class="form-label">თქვენი ელ-ფოსტა *</label>
+                                <div class="input-wrapper">
+                                    <i class="fa-solid fa-at input-icon"></i>
+                                    <input type="email" id="userEmail" name="email" class="form-input" placeholder="მაგ: name@example.com" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="userSubject" class="form-label">პროექტის ტიპი</label>
+                                <div class="input-wrapper">
+                                    <i class="fa-solid fa-list-check input-icon"></i>
+                                    <select id="userSubject" name="subject" class="form-input select-input">
+                                        <option value="portfolio">პორტფოლიო / სავიზიტო საიტი</option>
+                                        <option value="ecommerce">ონლაინ მაღაზია (E-Commerce)</option>
+                                        <option value="webapp">ვებ-აპლიკაცია / Dashboard</option>
+                                        <option value="uiux">UI/UX დიზაინი Figma-ში</option>
+                                        <option value="other">სხვა ტიპის თანამშრომლობა</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="userMessage" class="form-label">შეტყობინება *</label>
+                                <div class="input-wrapper">
+                                    <i class="fa-solid fa-message input-icon textarea-icon"></i>
+                                    <textarea id="userMessage" name="message" class="form-input form-textarea" rows="4" placeholder="აღწერეთ თქვენი პროექტი ან შეკითხვა..." required></textarea>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-block submit-btn">
+                                <span>შეტყობინების გაგზავნა</span>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </form>
+
+                        <!-- Pure CSS feedback anchor target -->
+                        <div id="contact-success" class="contact-success-box">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <div>
+                                <strong>გმადლობთ დაკავშირებისთვის!</strong>
+                                <p>თქვენი შეტყობინება წარმატებით გაიგზავნა. ლუკა მეშველიანი მალე გიპასუხებთ.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#top" class="brand-logo">
+                    <span class="logo-symbol">&lt;</span>
+                    <span class="logo-text">ლუკა</span>
+                    <span class="logo-accent">.</span>
+                    <span class="logo-sub">dev</span>
+                    <span class="logo-symbol">/&gt;</span>
+                </a>
+                <p class="footer-tagline">
+                    თანამედროვე, სუფთა და რესფონსიული ვებ-დეველოპმენტი ქართული სივრცისთვის.
+                </p>
+            </div>
+
+            <div class="footer-nav">
+                <ul class="footer-links">
+                    <li><a href="#top">მთავარი</a></li>
+                    <li><a href="#about">ჩემ შესახებ</a></li>
+                    <li><a href="#skills">უნარები</a></li>
+                    <li><a href="#projects">პროექტები</a></li>
+                    <li><a href="#services">სერვისები</a></li>
+                    <li><a href="#contact">კონტაქტი</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="copyright-text">
+                    &copy; 2026 <strong>ლუკა მეშველიანი</strong>. ყველა უფლება დაცულია. შექმნილია მხოლოდ HTML &amp; CSS-ით.
+                </p>
+                <a href="#top" class="back-to-top" aria-label="ზემოთ დაბრუნება">
+                    <span>ზემოთ</span>
+                    <i class="fa-solid fa-arrow-up"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Quick Navigation Dock (Pure CSS Mobile Experience) -->
+    <aside class="mobile-quick-dock" aria-label="მობილური სწრაფი მენიუ">
+        <a href="#top" class="dock-item" aria-label="მთავარი">
+            <i class="fa-solid fa-house"></i>
+            <span>მთავარი</span>
+        </a>
+        <a href="#about" class="dock-item" aria-label="ჩემ შესახებ">
+            <i class="fa-solid fa-user"></i>
+            <span>შესახებ</span>
+        </a>
+        <a href="#projects" class="dock-item" aria-label="პროექტები">
+            <i class="fa-solid fa-layer-group"></i>
+            <span>პროექტები</span>
+        </a>
+        <a href="#services" class="dock-item" aria-label="სერვისები">
+            <i class="fa-solid fa-briefcase"></i>
+            <span>სერვისები</span>
+        </a>
+        <a href="#contact" class="dock-item" aria-label="კონტაქტი">
+            <i class="fa-solid fa-paper-plane"></i>
+            <span>კონტაქტი</span>
+        </a>
+    </aside>
+
+</body>
+</html>
